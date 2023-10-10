@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - function that conputes the absolute
+ * _abs.c - function that conputes the absolute
  * value of an integer
  *
  * @n: takes integer tupe input for function
