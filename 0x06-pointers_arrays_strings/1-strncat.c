@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - a function that concatenates two strings.
+ * _strncat - a function that concatenates two strings.
  *
  * @dest: pointer to destination input
+ * @src: pointer to source input
  * @n: most number of butes from @src
  *
  * Return: @dest
@@ -14,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 	int c, i;
 
 	c = 0;
-	
+
 	/*find size of dest array*/
 	while (dest[c])
 		c++;
@@ -28,5 +29,5 @@ char *_strncat(char *dest, char *src, int n)
 	/*null terminate dest*/
 	dest[c + i] = '\0';
 
-	reutn (dest);
+	return (dest);
 }
