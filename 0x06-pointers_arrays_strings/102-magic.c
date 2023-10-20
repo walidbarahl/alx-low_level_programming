@@ -3,7 +3,7 @@
 int main(void)
 {
 	int n;
-	int a[s];
+	int a[5];
 	int *P;
 
 	a[2] = 1024;
