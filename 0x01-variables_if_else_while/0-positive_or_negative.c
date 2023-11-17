@@ -2,7 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - says if the number n is positive or negative */
+/**
+ * main - entry point
+ *
+ * Description: positve or negative or zero
+ *
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	int n;
